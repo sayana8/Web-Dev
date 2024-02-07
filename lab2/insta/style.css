@@ -1,0 +1,213 @@
+body{
+  height: 100vh;
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 32px;
+}
+
+#screeshot{
+  width: 450px;
+  margin-right: 25px;
+}
+
+#logo{
+  margin-top: 36px;
+  margin-bottom: 12px;
+  width: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.log-in{
+  width: 350px;
+  height: 398.99px;
+  border: 1px solid rgba(142, 142, 142, 35%);
+  border-radius: 2px;
+  margin-top: 32px;
+}
+
+.log-in input{
+  width: 268.4px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 3px;
+  background-color: rgb(250, 250, 250);
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  color: #b6b5b5;
+  font-size: 12px;
+}
+
+input[type="password"]::placeholder {
+  color: #b6b5b5;
+  font-size: 12px;
+}
+
+input[type="text"]{
+  text-indent: 10px;
+}
+
+input[type="password"]{
+  text-indent: 10px;
+}
+
+.log-in input:focus {
+  box-shadow: 0px 0px 1px 1px #8e8e8e;
+}
+
+.log-in button{
+  width: 268.4px;
+  height: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  color: white;
+  background-color: rgba(0, 149, 246, 90%);
+  border: 1px solid rgba(0, 149, 246, 90%);
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.or {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.or hr {
+  display: block;
+  border: 1px solid #dbdbdb;
+  width: 100%;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.or p {
+  margin: 0 5%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.fb-login{
+  color: #385185;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.fb-login p{
+  margin-top: -20px;
+  margin-left: 122px;
+  font-weight: 600;
+}
+
+#fb{
+  width: 17px;
+  margin-top: -5px;
+  margin-left: 95px;
+}
+
+.forgot-password{
+  font-size: 12px;
+  color: #00376b;
+  text-decoration: none;
+  margin-left: 130px;
+  position: relative;
+  top: 5px;
+}
+
+.sign-up{
+  width: 350px;
+  height:62.6px;
+  border: 1px solid rgba(142, 142, 142, 35%);
+  border-radius: 2px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.sign-up p{
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 21px;
+}
+
+.sign-up p a{
+  color: rgb(0, 149, 246);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.get-app{
+  width: 350px;
+  height: 94.6px;
+}
+
+.get-app p{
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+}
+
+.store a img{
+  height: 40px;
+}
+
+.store{
+  margin-left: 46px
+}
+
+footer {
+  padding-bottom: 50px;
+}
+
+footer ol {
+  list-style-type: none;
+  display: flex;
+  margin-top: 45px;
+  justify-content: center;
+}
+
+footer ol li {
+  margin: 0 5px;
+}
+
+footer ol li a {
+  color: #8e8e8e;
+  text-transform: capitalize;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-right: 16px;
+  color: #8e8e8e;
+}
+
+footer small {
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: center;
+}

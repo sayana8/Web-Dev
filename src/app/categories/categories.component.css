@@ -1,0 +1,8 @@
+.category.active li{
+    background: red
+}
+
+.category li{
+    list-style-type: none;
+    cursor: pointer;
+}
